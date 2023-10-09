@@ -683,6 +683,10 @@ footer {
     margin: 12px 0;
 }
 
+.contact-info svg {
+    padding-right: 6px;
+}
+
 .contact-info-icon {
     transform: translateY(3px);
 }
