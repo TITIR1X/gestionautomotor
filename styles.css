@@ -814,8 +814,12 @@ footer {
 @media (max-width: 700px) {
 
     .landing-title {
-        transform: translateX(20px);
         margin: 0;
+        transform: translateX(20px);
+        margin-right: 0px;
+        margin-right: 20px;
+        max-width: none;
+        width: auto;
     }
 
     .call-to-action-text {
@@ -886,7 +890,7 @@ footer {
 
 
     footer {
-        width: 100%;
+        width: 400px;
         margin: auto;
         padding: 20px 0;
         max-width: 400px;
